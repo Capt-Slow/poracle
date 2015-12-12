@@ -7,7 +7,7 @@
 ##
 #
 require 'httparty'
-require './poracle'
+require_relative 'Poracle'
 
 class DemoModule
   attr_reader :iv, :data, :blocksize
